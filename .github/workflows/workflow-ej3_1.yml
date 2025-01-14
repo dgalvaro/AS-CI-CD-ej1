@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  Ejercicio1:
+  Ejercicio3_1:
     runs-on: ubuntu-latest
     
     steps:
