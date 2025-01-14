@@ -12,4 +12,5 @@ class Wallet:
         self.balance = self.balance - val
 
     def increment_balance(self):
-        return self.balance += 1000
+        self.balance += 1000
+        return self.balance
