@@ -1,0 +1,16 @@
+name: Workflow2 Ejercicio3
+on: 
+  pull_request:
+  
+jobs:
+  Ejercicio3_2:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      security-events: write
+      
+    steps:
+      - name: Analizar calidad de codigo
+        uses: advanced-security/python-lint-code-scanning-action@v1
+        with:
+          linter: pylint
